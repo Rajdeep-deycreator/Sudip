@@ -1,0 +1,14 @@
+body {
+    font-size: 15pt;
+    background-color: #000000;
+    
+}
+#moto{
+  height:100px;
+  width:100%;
+  position:fixed;
+  backdrop-filter: blur(10px);
+  border-width: 20px;
+  border-color:#FFFFFF;
+  color:#FFFFFF;
+}
