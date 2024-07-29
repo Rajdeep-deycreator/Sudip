@@ -1,5 +1,5 @@
-body {
-    font-size: 15pt;
+html,body {
+    min-width: 5000px;
     background-color: #000000;
     
 }
@@ -7,8 +7,18 @@ body {
   height:100px;
   width:100%;
   position:fixed;
+  background-color: #000000;
   backdrop-filter: blur(10px);
   border-width: 20px;
   border-color:#FFFFFF;
   color:#FFFFFF;
+  text-align: center;
+}
+#contact{
+  position:fixed;
+  top:150px;
+  height:200px;
+  width:200px;
+  background:url("/source/small_1x_0c840ee9-92d2-445b-8cd5-12a333200e56.png");
+  background-size: cover;
 }
