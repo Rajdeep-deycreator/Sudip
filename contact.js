@@ -1,4 +1,4 @@
 function sub(){
-  var d=document.getElementById("date");
-  console.log(d);
+  var m=document.querySelector(".name").value;
+  alert(m)
 }

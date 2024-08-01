@@ -1,3 +1,44 @@
 html,body{
   background-color: rgba(6, 255, 0, 1);
+  min-width:1000px;
+}
+#parent{
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  height:700px;
+  width:500px;
+  position:fixed;
+  top:100px;
+  left:250px;
+}
+#email{
+  position: fixed;
+  top:50px;
+  width:250px;
+  height:50px;
+  font-size: 25px;
+  left:100px;
+}
+#message{
+  position: fixed;
+  top: 250px;
+  width: 470px;
+  height: 300px;
+  font-size: 25px;
+  left: 10px;
+}
+#name {
+  position: fixed;
+  top: 150px;
+  width: 250px;
+  height: 50px;
+  font-size: 25px;
+  left: 100px;
+}
+#sub{
+  background-color: rgba(6, 255, 0, 1);
+  height:50px;
+  position: fixed;
+  top:80%;
+  left:70%
 }
