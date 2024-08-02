@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>EmailJS Example</title>
   <link rel="stylesheet" href="style2.css">
 </head>
-
 <body>
   <h1>Having any problem?</h1>
   <div id="parent">
-    
- <input type="email" placeholder="email" id="email">
- <input type="text" placeholder="Name" id="name" class="name">
- <input type="text" placeholder=body id="message">
-  <input type="button" value="Submit" onclick=sub() id=sub>   
+    <input type="email" placeholder="Email" id="email">
+    <input type="text" placeholder="Name" id="name" class="name">
+    <input type="text" placeholder="Body" id="message">
+    <input type="button" value="Submit" id="sub" onclick="send()">
   </div>
 </body>
-<script src=contact.js></script>
-
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src='contact.js'>
+  
+</script>
 </html>
