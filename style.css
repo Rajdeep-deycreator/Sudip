@@ -7,11 +7,11 @@ html,body {
   height:100px;
   width:100%;
   position:fixed;
-  background-color: #000000;
+  background-color: #FFFFFF;
   backdrop-filter: blur(10px);
   border-width: 20px;
   border-color:#FFFFFF;
-  color:#FFFFFF;
+  color:#000000;
   text-align: center;
 }
 #fun{

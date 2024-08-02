@@ -38,6 +38,8 @@ html,body{
 #sub{
   background-color: rgba(6, 255, 0, 1);
   height:50px;
+  width:100px;
+  font-size: 25px;
   position: fixed;
   top:80%;
   left:70%
